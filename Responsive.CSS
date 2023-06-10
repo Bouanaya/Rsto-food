@@ -1,0 +1,399 @@
+@media screen and (max-width: 768px) {
+  body > header > div > div.input {
+    width: 30%;
+    display: none;
+  }
+
+  body > header > div > div {
+    width: 20%;
+  }
+  #Home > div {
+    /* grid-template-columns: repeat(1 ,2fr); */
+    height: 100vh;
+  }
+  #Home {
+    height: 100%;
+  }
+  #Home > div > div.Img-H {
+    height: 100%;
+  }
+  #Home > div > div.Hed-H > div {
+    width: 100%;
+  }
+  #Home > div > div.Hed-H > h1 {
+    font-size: 32px;
+  }
+  #Home > div > div.Hed-H > p {
+    font-size: 16px;
+    text-align: left;
+  }
+  #Home > div > div.Hed-H > div > button {
+    padding: 5px 30px;
+  }
+  #Home > div > div.Hed-H > div {
+    width: 80%;
+  }
+  #Home > div > div.Img-H > div.Boxs > div {
+    width: 300px;
+  }
+  #Home > div > div.Hed-H {
+    padding: 40% 10px;
+  }
+
+  #Home > div {
+    gap: 10px;
+  }
+  body > header > div > div.Icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+  body > header > div > div.Icon > i {
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+  }
+  body > header > div {
+    width: 100%;
+  }
+  #Home > div > div.Hed-H > div > span {
+    display: none;
+  }
+  /* :::::::::::::::::::::home:::::::::::::::: */
+  @media screen and (max-width: 768px) {
+    body > header > div > div.input {
+      width: 30%;
+      display: none;
+    }
+    .Nino {
+      height: 50vh;
+    }
+
+    body > header > div {
+      width: 100%;
+    }
+    .Hidden {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      backdrop-filter: blur(10px);
+      width: 100%;
+      flex-direction: column;
+      position: absolute;
+    }
+
+    body > header > div > ul {
+      display: none;
+      height: 8vh;
+    }
+    body > header > div > a {
+      font-size: 25px;
+      font-weight: 600;
+      color: orange;
+      position: absolute;
+      top: 25px;
+      left: 25px;
+    }
+    body > header > div > ul > li {
+      margin-top: 30px;
+    }
+    body > header > div > ul > li > a {
+      font-size: 18px;
+    }
+    body > header > div > div {
+      width: 20%;
+    }
+    #Home > div {
+      /* grid-template-columns: repeat(1 ,2fr); */
+      height: 100vh;
+    }
+    #Home {
+      height: 100%;
+    }
+    #Home > div > div.Img-H {
+      height: 100%;
+    }
+    #Home > div > div.Hed-H > div {
+      width: 100%;
+    }
+    #Home > div > div.Hed-H > h1 {
+      font-size: 32px;
+    }
+    #Home > div > div.Hed-H > p {
+      font-size: 16px;
+      text-align: left;
+    }
+    #Home > div > div.Hed-H > div > button {
+      padding: 5px 30px;
+    }
+    #Home > div > div.Hed-H > div {
+      width: 80%;
+    }
+    #Home > div > div.Img-H > div.Boxs > div {
+      width: 300px;
+    }
+    #Home > div > div.Hed-H {
+      padding: 40% 10px;
+    }
+
+    #Home > div {
+      gap: 10px;
+    }
+    body > header > div > div.Icon {
+      display: flex;
+      justify-content: right;
+    }
+    body > header > div > div.Icon > i {
+      font-size: 30px;
+      color: black;
+      cursor: pointer;
+    }
+
+    #Home > div > div.Hed-H > div > span {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    #Home {
+      height: 200%;
+    }
+    #Home > div {
+      height: 100%;
+      gap: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    #Home > div > div.Img-H {
+      padding: 10px;
+      background-color: lightgreen;
+    }
+    #Home > div > div.Hed-H {
+      padding: 10px;
+    }
+    #Home > div > div.Hed-H > div > span {
+      display: flex;
+    }
+    .Hidden {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+      backdrop-filter:blur(5px);
+      width: 100%;
+      flex-direction: column;
+      position: absolute;
+    }
+
+    body > header > div > ul {
+      display: none;
+      height: 8vh;
+      position: relative;
+    }
+    .Nino {
+      height: 100vh;
+    }
+
+    /* ::::::::::::::::::::::about:::::::::::::: */
+  }
+}
+@media screen and (max-width: 320px) {
+  #Home {
+    height: 200%;
+  }
+  #Home > div {
+    height: 100%;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  #Home > div > div.Img-H {
+    padding: 10px;
+    background-color: lightgreen;
+  }
+  #Home > div > div.Hed-H {
+    padding: 10px;
+  }
+  #Home > div > div.Hed-H > div > span {
+    display: flex;
+  }
+}
+/* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;About;;;;;;;;;;;;;;;;;;; */
+@media screen and (max-width: 768px) {
+  #About > div > div > div.iMG-A > div {
+    width: 100%;
+    display: block;
+  }
+  #About > div > div.G-1 {
+    display: block;
+    height: 100%;
+    padding: 0;
+  }
+  #About > div > div.G-1 > div.iMG-A > div {
+    width: 100%;
+    padding: 10% 2%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  #About > div > div.G-1 > div.iMG-A > div > img {
+    height: 300px;
+    position: sticky;
+  }
+  #About > div > div.G-3 > div.cadres {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+  #About > div > div.G-3 > div.cadres > div > div {
+    right: 38%;
+    top: 5%;
+  }
+  #About > div > div.G-3 > div.cadres > div {
+    width: 100%;
+  }
+  #About > div > div.G-3 > div:nth-child(1) {
+    width: 100%;
+  }
+  #Contact > div:nth-child(1) > img {
+    width: 30%;
+  }
+  #Contact > div:nth-child(1) > div {
+    width: 70%;
+  }
+
+  body > section:nth-child(4) > div {
+    grid-template-columns: 1fr;
+  }
+  body > section:nth-child(4) > div > div.C-Img {
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 70px 70px 70px 70px 70px 70px;
+    gap: 15px;
+  }
+  body > section:nth-child(4) > div {
+    padding: 0 5%;
+  }
+  body > section:nth-child(4) > div > div.C-H {
+    padding: 0;
+  }
+  #Puplaire > div:nth-child(1) > div.boxxs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #Contact > div:nth-child(1) > div > button {
+    margin-left: 60%;
+  }
+  #Contact > div.Cordonne > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #Contact > div.Cordonne > div > div:nth-child(1) > ul {
+    margin-top: 30px;
+  }
+  #Contact > div.Cordonne > a {
+    padding: 0 35px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #About > div > div.G-1 > div.G-2 > h2 {
+    font-size: 25px;
+  }
+  .Hidden {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+  }
+  body > section:nth-child(4) > div > div.C-Img {
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-template-rows: 30px 30px 30px 30px;
+    gap: 10px;
+  }
+  body > section:nth-child(4) > div > div.C-H > h2 {
+    font-size: 20px;
+  }
+  body > section:nth-child(4) > div > div.C-H > p {
+    font-size: 14px;
+  }
+  #About > div > div.G-3 {
+    padding: 8%;
+  }
+  #Puplaire > div:nth-child(1) > div.boxxs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #Puplaire > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2 {
+    font-size: 16px;
+  }
+  #Costomy > div > div.carts > div > div:nth-child(2) {
+    width: 100%;
+    margin-right: 10px;
+    border: 1px solid gray;
+  }
+  #Costomy > div > div.Cos-hed > h2 {
+    font-size: 16px;
+  }
+   
+  #Contact > div:nth-child(1) {
+    margin: 0;
+    width: 100%;
+  }
+  #Contact > div:nth-child(1) {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #Contact > div:nth-child(1) > img {
+    width: 100%;
+  }
+  #Contact > div:nth-child(1) > div {
+    width: 100%;
+  }
+  #Contact > div:nth-child(1) > div > h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  #Contact > div:nth-child(1) > div > div {
+    margin-top: 10px;
+  }
+  #Contact > div:nth-child(1) > div > button {
+    margin-left: 35%;
+    margin-bottom: 10px;
+  }
+  #Contact > div:nth-child(1) > div > div > input {
+    padding: 10px;
+  }
+  #Contact > div.Cordonne > div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #Contact > div.Cordonne > a {
+    padding: 0 10px;
+  }
+  #Contact > div.Cordonne > div:nth-child(2) {
+    padding: 0;
+  }
+  #Contact > div.Cordonne > div:nth-child(2) > ul {
+    display: flex;
+  }
+  #Contact > div.Cordonne > div:nth-child(2) > ul > li {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  #Contact > div.Cordonne > div:nth-child(3) {
+    padding: 30px 0;
+  }
+  #Contact > div.Cordonne > div:nth-child(4) {
+    padding: 10px 0;
+  }
+  #Contact > div.Cordonne > div:nth-child(5) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  #Contact > div.Cordonne > div {
+    display: block;
+  }
+  #Contact > div.Cordonne > div > div:nth-child(3) {
+    text-align: left;
+  }
+}
